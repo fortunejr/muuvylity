@@ -7,7 +7,7 @@ import About from './Pages/About/About'
 import Services from './Pages/Services/Services'
 import Advantages from './Pages/Advantages/Advantages'
 import Contact from './Pages/Contact/Contact'
-import Team from './Pages/Team/team'
+import MeetTheTeam from './Pages/MeetTheTeam/MeetTheTeam'
 
 const App = () => {
   return (
@@ -19,7 +19,7 @@ const App = () => {
         <Route path = "/services"  element = {<Services />}/>
         <Route path = "/advantages"  element = {<Advantages />}/>
         <Route path = "/contact"  element = {<Contact />}/>
-        <Route path = "/abouttheteam"  element = {<Team />}/>
+        <Route path = "/abouttheteam"  element = {<MeetTheTeam />}/>
         <Route path = "*"  element={<p>Nothing to show</p>} />
       </Routes>
       <Footer />
