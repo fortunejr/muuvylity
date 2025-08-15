@@ -14,8 +14,6 @@ const Homepage = () => {
         <About />
         <Services />
         <Advantages />
-        <Testimonials />
-        <Promise />
         <Appointment />
     </div>
   )

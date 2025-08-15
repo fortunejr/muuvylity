@@ -1,52 +1,50 @@
-import React from 'react'
-import { ai, battery, climate, decentralized, diagnose, efficiency, warranty } from '../../imports'
+import React from "react";
+import { FaIndustry, FaUserTie, FaShieldAlt, FaCheckCircle } from "react-icons/fa";
 
 const advantagesList = [
   {
-    img: efficiency,
-    text: "Utilization of high-efficiency (>21%) Tier-1 PV modules"
+    icon: <FaIndustry className="text-blue-500 text-4xl" />,
+    title: "Experience",
+    text: "Our team has extensive experience in the oil and gas industry, ensuring that we understand the unique challenges and requirements of our clients.",
   },
   {
-    img: battery,
-    text: "Deployment of scalable inverter topologies (from 5kVA to 100kVA)"
+    icon: <FaUserTie className="text-blue-500 text-4xl" />,
+    title: "Expertise",
+    text: "We have a team of skilled professionals with expertise in various disciplines, ensuring that our clients receive high-quality services and solutions.",
   },
   {
-    img: ai,
-    text: "Integration of AI-driven EMS (Energy Management Systems)"
+    icon: <FaShieldAlt className="text-blue-500 text-4xl" />,
+    title: "Safety",
+    text: "We prioritize safety in all our operations, ensuring that our clients' personnel and assets are protected.",
   },
   {
-    img: diagnose,
-    text: "Smart diagnostics and fault-tolerant system design"
+    icon: <FaCheckCircle className="text-blue-500 text-4xl" />,
+    title: "Quality",
+    text: "We are committed to delivering high-quality services and solutions that meet or exceed our clients' expectations.",
   },
-  {
-    img: warranty,
-    text: "Comprehensive 5-year performance warranties and 24/7 support"
-  },
-  {
-    img: decentralized,
-    text: "Decentralized mini-grid and off-grid rural electrification experience"
-  },
-  {
-    img: climate,
-    text: "Projects aligned with UN 2030 Climate Agenda and Nigeria’s Energy Transition Plan"
-  },
-]
+];
 
 const Advantages = () => {
   return (
-    <div className='container mx-auto px-7 py-10'>
-  <h2 className='text-3xl font-bold mb-8'>What Sets Us Apart</h2>
+    <div className="container mx-auto px-7 py-16">
+      <h2 className="text-3xl lg:text-4xl font-bold mb-12 text-center text-blue-500">
+        Why Choose Us?
+      </h2>
 
-  <div className='grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
-    {advantagesList.map((advantage, index) => (
-      <div key={index} className='bg-gray-100 rounded-3xl flex gap-5 p-5'>
-        <img className='h-20 w-20 object-contain' src={advantage.img} alt="" />
-        <p className='text-sm'>{advantage.text}</p>
+      <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+        {advantagesList.map((advantage, index) => (
+          <div
+            key={index}
+            className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 p-6 text-center border border-gray-100"
+          >
+            <div className="flex justify-center mb-4">{advantage.icon}</div>
+            <h3 className="font-semibold text-lg mb-2 text-gray-800">{advantage.title}</h3>
+            <p className="text-sm text-gray-600">{advantage.text}</p>
+          </div>
+        ))}
       </div>
-    ))}
-  </div>
-</div>
-  )
-}
+    </div>
+  );
+};
 
-export default Advantages
+export default Advantages;

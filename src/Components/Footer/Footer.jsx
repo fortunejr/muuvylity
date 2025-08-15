@@ -17,15 +17,15 @@ const Footer = () => {
         <img className='h-14 mb-4' src={logo} alt="LumiGrid logo" />
       </Link>
         <p className='text-white text-sm leading-relaxed'>
-          LumiGrid Technology Limited is a pioneering renewable energy firm committed to bridging Nigeria's energy access gap through the deployment of advanced solar power technologies.
+          At Omphoenix, we specialize in providing comprehensive services and solutions to the oil and gas industry and other allieds.
         </p>
       </div>
 
       {/* Contact Info */}
       <div className='lg:w-1/3'>
         <h2 className='font-bold text-white pb-3 pt-7 lg:pt-0'>Contact Information</h2>
-        <p className='text-white text-sm'>📍 G1 H6, Idejo Avenue, Royal Gardens Estate, Ajah.</p>
-        <p className='text-white text-sm mt-2'>📧 info@lumigrid.com.ng</p>
+        <p className='text-white text-sm'>📍 </p>
+        <p className='text-white text-sm mt-2'>📧 Omphoenixlimited@gmail.com</p>
       </div>
 
       {/* Social Icons */}
@@ -61,7 +61,7 @@ const Footer = () => {
 
     {/* Copyright */}
     <p className="text-center text-sm mt-10 text-white">
-      &copy; {year} LumiGrid Technology Limited
+      &copy; {year} Omphoenix Limited
     </p>
   </div>
 </footer>
