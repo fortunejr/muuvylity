@@ -16,9 +16,9 @@ const About = () => {
       <div className="w-full lg:w-1/2">
         <h2 className="text-5xl lg:text-5xl text-white font-bold mb-5">Who are we</h2>
         <p className="text-white text-sm lg:text-base leading-relaxed">
-          LumiGrid Technology Limited is a pioneering renewable energy firm committed to bridging Nigeria's energy access gap through the deployment of advanced solar power technologies. Founded by a team of electrical engineers, power system designers, and energy transition experts, LumiGrid delivers precision-engineered solar solutions that combine state-of-the-art photovoltaic technology with intelligent energy management systems.
-          <br /><br />
-          We are aligned with the United Nations Sustainable Development Goal 7 (Affordable and Clean Energy), ensuring our services contribute meaningfully to climate action and sustainable development. Our mission is to accelerate Nigeria’s transition to a decentralized, smart, and clean energy ecosystem through dependable, scalable, and innovative solar technologies.
+          Omphoenix Limited is a dynamic, forward-thinking company specializing in providing comprehensive solutions to the oil and gas industry and allied sectors. We are committed to delivering excellence, innovation, and measurable value to our clients through a blend of technical expertise, strategic insight, and an unwavering focus on safety and quality.
+          <br></br><br></br>
+          Our services span multiple disciplines, enabling us to act as a trusted partner to organizations seeking to improve operational efficiency, enhance productivity, and achieve sustainable growth. With a team of seasoned professionals who bring diverse backgrounds in engineering, project management, data and artificial intelligence, health and safety, and quality control, Omphoenix Limited is positioned at the forefront of industry transformation.
         </p>
       </div>
 

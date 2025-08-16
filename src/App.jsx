@@ -8,10 +8,12 @@ import Services from './Pages/Services/Services'
 import Advantages from './Pages/Advantages/Advantages'
 import Contact from './Pages/Contact/Contact'
 import MeetTheTeam from './Pages/MeetTheTeam/MeetTheTeam'
+import ScrollToTop from './Components/ScrollToTop'
 
 const App = () => {
   return (
     <div>
+      <ScrollToTop/>
       <Navbar />
       <Routes>
         <Route path = "/"  element = {<Homepage />}/>

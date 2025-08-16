@@ -5,7 +5,7 @@ import { Link } from "react-router";
 
 const Appointment = () => {
   return (
-    <div className="bg-customBlue">
+    <div className="bg-blue-100">
       <div className="container mx-auto py-32 px-4 text-white">
         <div className="flex flex-col lg:flex-row items-center gap-7 bg-gray-900 rounded-3xl px-6 py-8 lg:py-12">
           {/* Image Section */}
@@ -23,9 +23,7 @@ const Appointment = () => {
               Need help? Book a call at a time that suits you
             </h2>
             <p className="text-sm lg:text-base leading-relaxed">
-              We have dedicated electrical engineers and energy consultants to
-              help you make informed decisions about your power and
-              infrastructure investments.
+              Our expertise spans across various disciplines, ensuring that our clients receive top-notch support for their operations.
             </p>
 
             <Link to={"/contact"}>

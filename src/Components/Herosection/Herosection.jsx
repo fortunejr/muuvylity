@@ -6,43 +6,52 @@ import { img9 } from "../../imports";
 
 const Herosection = () => {
   return (
-    <div
-      className="relative bg-cover bg-center bg-no-repeat"
-      style={{
-        backgroundImage: `url(${img9})`,
-      }}
-    >
-      {/* Blue overlay */}
-      <div className="absolute inset-0 bg-blue-900/70 backdrop-blur-sm"></div>
-
-      {/* Content */}
-      <div className="relative z-10 lg:px-10 pt-14 container mx-auto px-7 h-fit lg:p-28 p-8 gap-4 flex flex-col lg:flex-row lg:justify-between items-center">
-        <div className="lg:w-[50%]">
+    <section className="bg-blue-900/90">
+      <div className="container mx-auto px-7 lg:px-10 py-16 lg:py-24 flex flex-col lg:flex-row items-center gap-12">
+        
+        {/* Left Content */}
+        <div className="lg:w-1/2 text-center lg:text-left">
           <p className="text-customYellow font-bold">Omphoenix Limited</p>
-          <h1 className="lg:text-4xl leading-tight font-black text-3xl text-white pb-6 slide-in-bottom">
-            We specialize in providing comprehensive services to the oil and gas industry and other allieds.
+          <h1 className="text-3xl lg:text-5xl font-black text-white leading-tight pb-6">
+            We specialize in providing comprehensive services to the oil and gas
+            industry and other allieds.
           </h1>
-          <p className="lg:text-sm text-white lg:w-120 slide-in-left">
-            Our expertise spans across various disciplines, ensuring that our clients receive top-notch support for their operations.
+          <p className="text-white text-base lg:text-lg opacity-90">
+            Our expertise spans across various disciplines, ensuring that our
+            clients receive top-notch support for their operations.
           </p>
 
-          <div className="pt-9 flex items-center gap-6 slide-in-left2">
-            <a target="_blank" href="https://wa.me/2348033670069" rel="noreferrer">
-              <button className="lg:rounded-2xl lg:px-8 flex gap-2 items-center bg-customYellow p-4 rounded-2xl font-bold text-white cursor-pointer">
-                <FaWhatsapp size={27} />
+          {/* CTA Buttons */}
+          <div className="pt-9 flex flex-row justify-center lg:justify-start items-center gap-4 flex-wrap">
+            <a
+              target="_blank"
+              href="https://wa.me/2348033670069"
+              rel="noreferrer"
+            >
+              <button className="flex gap-2 items-center bg-customYellow px-4 py-3 lg:px-8 lg:py-4 rounded-2xl font-bold text-white cursor-pointer hover:scale-105 transition text-sm lg:text-base">
+                <FaWhatsapp size={22} className="lg:size-27" />
                 Chat us
               </button>
             </a>
             <a href="mailto:Omphoenixlimited@gmail.com">
-              <button className="lg:rounded-2xl lg:px-8 flex gap-2 items-center border-customYellow hover:bg-customYellow border-2 p-4 rounded-2xl font-bold text-white cursor-pointer">
-                <MdOutlineMail size={27} />
+              <button className="flex gap-2 items-center border-customYellow hover:bg-customYellow border-2 px-4 py-3 lg:px-8 lg:py-4 rounded-2xl font-bold text-white cursor-pointer hover:scale-105 transition text-sm lg:text-base">
+                <MdOutlineMail size={22} className="lg:size-27" />
                 Email us
               </button>
             </a>
           </div>
         </div>
+
+        {/* Right Image */}
+        <div className="lg:w-1/2 flex justify-center">
+          <img
+            src={img9}
+            alt="Omphoenix services"
+            className="rounded-2xl shadow-lg max-w-full h-auto"
+          />
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 
