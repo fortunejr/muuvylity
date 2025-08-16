@@ -16,7 +16,7 @@ const Services = () => {
   return (
     <section className="px-7 py-16 bg-blue-100 text-blue-500">
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-3xl lg:text-4xl font-bold mb-6 animate-fade-in-down">
+        <h2 className="text-3xl lg:text-4xl font-bold mb-6 animate-fade-in-down text-customBlue">
           Our Services
         </h2>
         <p className="text-gray-600 mb-12 animate-fade-in-up max-w-3xl mx-auto">
@@ -42,7 +42,7 @@ const Services = () => {
 
         <Link
           to="/services"
-          className="inline-block mt-6 px-6 py-3 rounded-full bg-blue-500 text-white font-semibold hover:bg-blue-900  transition duration-300 shadow-md"
+          className="inline-block mt-6 px-6 py-3 rounded-full bg-customBlue text-white font-semibold hover:bg-blue-900  transition duration-300 shadow-md"
         >
           See more services
         </Link>

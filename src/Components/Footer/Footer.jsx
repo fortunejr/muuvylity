@@ -8,7 +8,7 @@ const Footer = () => {
     const date = new Date();
     const year = date.getFullYear();
   return (
-    <footer className='bg-gray-900'>
+    <footer className='bg-customBlue'>
   <div className='container mx-auto px-4 sm:px-6 lg:px-10 py-10'>
     <div className='flex flex-col lg:flex-row justify-between gap-10'>
       {/* Logo and Description */}

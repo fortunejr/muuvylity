@@ -6,7 +6,7 @@ import { img9 } from "../../imports";
 
 const Herosection = () => {
   return (
-    <section className="bg-blue-900/90">
+    <section className="bg-customBlue">
       <div className="container mx-auto px-7 lg:px-10 py-16 lg:py-24 flex flex-col lg:flex-row items-center gap-12">
         
         {/* Left Content */}
