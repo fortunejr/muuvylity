@@ -24,7 +24,7 @@ const Footer = () => {
       {/* Contact Info */}
       <div className='lg:w-1/3'>
         <h2 className='font-bold text-white pb-3 pt-7 lg:pt-0'>Contact Information</h2>
-        <p className='text-white text-sm'>📍 </p>
+        <p className='text-white text-sm'>📍 220 P. T. I. Rd, Effurun, Uvwie 330102, Delta</p>
         <p className='text-white text-sm mt-2'>📧 Omphoenixlimited@gmail.com</p>
       </div>
 

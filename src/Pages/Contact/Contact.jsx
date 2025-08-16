@@ -49,7 +49,7 @@ const Contact = () => {
             <div className="space-y-4 text-gray-800 text-sm">
               <p className="flex items-center gap-3">
                 <MdLocationOn className="text-customBlue text-xl" />
-                <span><strong>Address:</strong> Your company address here</span>
+                <span><strong>Address:</strong> 220 P. T. I. Rd, Effurun, Uvwie 330102, Delta</span>
               </p>
               <p className="flex items-center gap-3">
                 <MdEmail className="text-customBlue text-xl" />
