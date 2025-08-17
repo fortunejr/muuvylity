@@ -6,12 +6,14 @@ import Advantages from '../../Components/Advantages/Advantages'
 import Testimonials from '../../Components/Testimonials/Testimonials'
 import Promise from '../../Components/Promise/Promise'
 import Appointment from '../../Components/Appointment/Appointment'
+import Stats from '../../Components/Stats/Stats'
 
 const Homepage = () => {
   return (
     <div>
         <Herosection />
         <About />
+        <Stats/>
         <Services />
         <Advantages />
         <Appointment />
