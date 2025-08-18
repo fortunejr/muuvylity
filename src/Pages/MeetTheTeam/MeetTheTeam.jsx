@@ -16,6 +16,27 @@ Chidi has delivered impactful results in roles at Standard Bank Group, General E
     
 A registered Engineer (Coren No. 48,367) with over a decade of onshore/offshore experiences in engineering construction, project management, fabrication, installation, welding inspection, HSE and QA/QC. Proficient in HSE compliance to ensure a safe working environment, including risk assessments, surveys, machinery upgrades and maintenance. Passionate about providing technical support to improve productivity and increase efficiency to achieve and exceed operational objectives.`,
   },
+  {
+    role: "Chief Finance Officer",
+    name: "Ifeoma Onokpasa",
+    bio: `Ifeoma Onokpasa is a seasoned finance professional with extensive expertise in strategy, treasury management, and corporate finance. She holds a Bachelor’s degree in Economics from Covenant University, Ota, an MBA from Lagos Business School, Pan-Atlantic University, Lagos, and a Finance Certificate from Yale University, USA.
+
+Her career includes notable experience at Financial Derivatives Company, where she served in various capacities, and at Futureview Financial Services, where she led the Treasury and Corporate Finance functions. Ifeoma is also an accomplished administrator with a strong passion for strategic planning and financial management.`,
+  },
+  {
+    role: "",
+    name: "Ms Sandra Hitler",
+    bio: `Sandra is safety and environmental enthusiast. She has a diploma in Civil Engineering and a degree in Microbiology.
+
+ She brings her wealth of Expertise and experience in Health , Safety and Environment`,
+  },
+  {
+    role: "",
+    name: "Kelly Ochuko Egode",
+    bio: `HKelly Ochuko Egode is a seasoned Electrical/Electronics Engineer and multidisciplinary technology leader with over 18 years of experience across energy, finance, agriculture, infrastructure, and industrial automation. As a COREN/NSE-certified professional, he combines hands-on engineering expertise with cutting-edge AI and IoT solutions to drive efficiency and innovation in the oil & gas sector.
+
+A graduate of the Federal University of Technology Akure (B.Eng, Electrical/Electronics) and holder of an MSc in AI & Data Science (Distinction) University of Hull, UK. Kelly bridges traditional engineering with Industry 4.0 technologies. His work has been recognized by Innovate UK, and the Nigerian Society of Engineers.`,
+  },
 ];
 
 const MeetTheTeam = () => {
