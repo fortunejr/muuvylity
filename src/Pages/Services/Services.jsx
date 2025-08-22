@@ -1,9 +1,15 @@
 import React from "react";
 import { FaCheckCircle } from "react-icons/fa";
 
+// Example stock images (replace with your own)
+import { oilandgas } from "../../imports";
+import { engineering } from "../../imports";
+import { development } from "../../imports";
+
 const groupedServices = [
   {
     category: "Oil & Gas Services",
+    image: oilandgas,
     items: [
       "Oil and Gas Services: We offer a range of services, including maintenance, inspection, and repair of oil and gas facilities, equipment, and infrastructure",
       "Wellhead Services: We offer wellhead maintenance, repair, and installation services to ensure the safe and efficient operation of your wells",
@@ -12,9 +18,10 @@ const groupedServices = [
   },
   {
     category: "Engineering & Technical",
+    image: engineering,
     items: [
       "Maintenance: Our maintenance services ensure that your equipment and facilities are running at optimal levels, minimizing downtime and increasing productivity.",
-      "Instrumentation and Control: DWe design, install, and maintain instrumentation and control systems for oil and gas applications.",
+      "Instrumentation and Control: We design, install, and maintain instrumentation and control systems for oil and gas applications.",
       "Civil Works and General Contracting: Our team of civil engineers and contractors provides construction, maintenance, and repair services for oil and gas infrastructure.",
       "Welding and Fabrication: Our skilled welders and fabricators provide high-quality welding and fabrication services for oil and gas applications.",
       "Alternative Energy and Street Solar Lights.",
@@ -22,6 +29,7 @@ const groupedServices = [
   },
   {
     category: "Development & Management",
+    image: development,
     items: [
       "Real Estate Development.",
       "Project Management Services.",
@@ -42,22 +50,34 @@ const Services = () => {
           solutions designed to meet industry standards and exceed client expectations.
         </p>
 
-        <div className="space-y-12">
+        <div className="space-y-16">
           {groupedServices.map((group, groupIndex) => (
-            <div key={groupIndex}>
-              <h3 className="text-2xl font-semibold mb-6 border-b-2 border-blue-100 pb-2">
-                {group.category}
-              </h3>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                {group.items.map((service, index) => (
-                  <div
-                    key={index}
-                    className="flex items-start gap-3 bg-blue-50 p-4 rounded-lg transform transition-all duration-300 hover:scale-105 hover:bg-blue-100"
-                  >
-                    <FaCheckCircle className="text-blue-500 mt-1 flex-shrink-0" />
-                    <span className="text-left text-gray-700">{service}</span>
-                  </div>
-                ))}
+            <div key={groupIndex} className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+              {/* Image side */}
+              <div className="w-full">
+                <img
+                  src={group.image}
+                  alt={group.category}
+                  className="w-full h-64 object-cover rounded-xl shadow-md hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+
+              {/* Text side */}
+              <div>
+                <h3 className="text-2xl font-semibold mb-6 border-b-2 border-blue-100 pb-2">
+                  {group.category}
+                </h3>
+                <div className="grid grid-cols-1 gap-4">
+                  {group.items.map((service, index) => (
+                    <div
+                      key={index}
+                      className="flex items-start gap-3 bg-blue-50 p-4 rounded-lg transform transition-all duration-300 hover:scale-105 hover:bg-blue-100"
+                    >
+                      <FaCheckCircle className="text-blue-500 mt-1 flex-shrink-0" />
+                      <span className="text-left text-gray-700">{service}</span>
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
           ))}

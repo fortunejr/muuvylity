@@ -18,8 +18,11 @@ import ai from "./assets/ai.png"
 import battery from "./assets/battery.png"
 import climate from "./assets/climate.png"
 import engineer from "./assets/engineer.png"
+import oilandgas from './assets/oil-and-gas.jpg'
+import engineering from './assets/engineering.jpg'
+import development from './assets/development.jpg'
 
 
 export {
-    logo, img1, img2, img3, img4, img5, img6, img7, img8,img9,img10,img11, efficiency,decentralized, warranty, diagnose, ai, battery, climate, engineer
+    logo, img1, img2, img3, img4, img5, img6, img7, img8,img9,img10,img11, efficiency,decentralized, warranty, diagnose, ai, battery, climate, engineer, oilandgas, engineering, development
 }
