@@ -12,8 +12,8 @@ const Homepage = () => {
   return (
     <div>
         <Herosection />
-        <About />
         <Stats/>
+        <About />
         <Services />
         <Advantages />
         <Appointment />

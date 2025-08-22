@@ -49,7 +49,7 @@ const Advantages = () => {
         viewport={{ once: true }}
         className="text-3xl lg:text-4xl font-bold mb-12 text-center text-blue-500"
       >
-        Why Choose Us?
+        <h3>Why Choose Us?</h3>
       </motion.h2>
 
       <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4">

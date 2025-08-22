@@ -1,6 +1,7 @@
 import React from "react";
 import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
+import './Stats.css'
 
 const Stats = () => {
   const stats = [
@@ -10,16 +11,16 @@ const Stats = () => {
   ];
 
   return (
-    <section className="bg-blue-100 py-16">
+    <section className="bg-white py-16">
       <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-10 text-center">
         {stats.map((stat, index) => {
           const { ref, inView } = useInView({
-            triggerOnce: false, // animate every time it's in view
-            threshold: 0.3, // start when 30% visible
+            triggerOnce: false, 
+            threshold: 0.3, 
           });
 
           return (
-            <div key={index} ref={ref}>
+            <div key={index} ref={ref} className="counter-font">
               <h2 className="text-5xl font-bold text-gray-800">
                 {inView ? (
                   <CountUp end={stat.number} duration={2.5} />
