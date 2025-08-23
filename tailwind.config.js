@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        customBlue: "#1a8fba",
+        customBlue: "#0e55c7",
         customYellow: "#FFAD00",
         
       }

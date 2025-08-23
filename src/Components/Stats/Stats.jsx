@@ -11,7 +11,7 @@ const Stats = () => {
   ];
 
   return (
-    <section className="bg-white py-16">
+    <section className="bg-lime-100 py-16">
       <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-10 text-center">
         {stats.map((stat, index) => {
           const { ref, inView } = useInView({

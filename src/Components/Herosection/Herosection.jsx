@@ -3,7 +3,7 @@ import { FaWhatsapp } from "react-icons/fa6";
 import { MdOutlineMail } from "react-icons/md";
 import { motion } from "framer-motion";
 import "./herosection.css";
-import { img9 } from "../../imports";
+import { heroimg, img9 } from "../../imports";
 
 // Animation variants
 const leftContent = {
@@ -28,7 +28,7 @@ const buttonVariants = {
 const Herosection = () => {
   return (
     <section className="bg-customBlue">
-      <div className="container mx-auto px-7 lg:px-10 py-16 lg:py-24 flex flex-col lg:flex-row items-center gap-12">
+      <div className="container mx-auto px-7 lg:px-10 pt-20 lg:py-24 flex flex-col lg:flex-row items-center gap-12">
 
         {/* Left Content */}
         <motion.div
@@ -39,9 +39,9 @@ const Herosection = () => {
           viewport={{ once: true }}
         >
           <p className="text-customYellow font-bold">Omphoenix Limited</p>
-          <h1 className="text-3xl lg:text-5xl font-black text-white leading-tight pb-6">
-            We specialize in providing comprehensive services to the oil and gas
-            industry and other allieds.
+          <h1 className="text-3xl lg:text-5xl font-black text-white tracking-normal pb-6">
+            We Provide Comprehensive Services to the <span className="text-lime-400">Oil and Gas </span>
+             Industry and <span className="text-lime-400">Other Allieds</span>.
           </h1>
           <p className="text-white text-base lg:text-lg opacity-90">
             Our expertise spans across various disciplines, ensuring that our
@@ -60,7 +60,7 @@ const Herosection = () => {
               whileInView="visible"
               viewport={{ once: true }}
             >
-              <button className="flex gap-2 items-center bg-customYellow px-4 py-3 lg:px-8 lg:py-4 rounded-2xl font-bold text-white cursor-pointer hover:scale-105 transition text-sm lg:text-base">
+              <button className="flex gap-2 items-center bg-white px-4 py-3 lg:px-8 lg:py-4 font-bold text-black cursor-pointer hover:scale-105 transition text-sm lg:text-base">
                 <FaWhatsapp size={22} className="lg:size-27" />
                 Chat us
               </button>
@@ -74,7 +74,7 @@ const Herosection = () => {
               whileInView="visible"
               viewport={{ once: true }}
             >
-              <button className="flex gap-2 items-center border-customYellow hover:bg-customYellow border-2 px-4 py-3 lg:px-8 lg:py-4 rounded-2xl font-bold text-white cursor-pointer hover:scale-105 transition text-sm lg:text-base">
+              <button className="flex gap-2 items-center border-white hover:bg-lime-400 border-2 px-4 py-3 lg:px-8 lg:py-4 font-bold text-white cursor-pointer hover:scale-105 transition text-sm lg:text-base">
                 <MdOutlineMail size={22} className="lg:size-27" />
                 Email us
               </button>
@@ -91,9 +91,9 @@ const Herosection = () => {
           viewport={{ once: true }}
         >
           <img
-            src={img9}
+            src={heroimg}
             alt="Omphoenix services"
-            className="rounded-2xl shadow-lg max-w-full h-auto"
+            className=" max-w-full h-auto"
           />
         </motion.div>
       </div>

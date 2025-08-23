@@ -7,7 +7,7 @@ const Appointment = () => {
   return (
     <div className="bg-blue-100">
       <div className="container mx-auto py-32 px-4 text-white">
-        <div className="flex flex-col lg:flex-row items-center gap-7 bg-gray-900 rounded-3xl px-6 py-8 lg:py-12">
+        <div className="flex flex-col lg:flex-row items-center gap-7 bg-customBlue rounded-3xl px-6 py-8 lg:py-12">
           {/* Image Section */}
           <div className="flex-shrink-0">
             <img
@@ -27,7 +27,7 @@ const Appointment = () => {
             </p>
 
             <Link to={"/contact"}>
-              <button className="flex flex-row items-center justify-center gap-3 bg-customBlue w-full sm:w-auto px-6 py-3 rounded-xl font-bold text-white hover:opacity-90 transition duration-300">
+              <button className="flex flex-row items-center justify-center gap-3 bg-lime-400 w-full sm:w-auto px-6 py-3 rounded-xl font-bold text-blue-950 hover:opacity-90 transition duration-300">
                 Book Appointment
                 <FaArrowRight size={24} />
               </button>

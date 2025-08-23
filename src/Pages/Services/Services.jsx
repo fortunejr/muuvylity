@@ -40,50 +40,58 @@ const groupedServices = [
 
 const Services = () => {
   return (
-    <section className="px-7 py-16 bg-white text-blue-500">
-      <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-center">
-          Our Services
-        </h2>
-        <p className="text-gray-600 mb-12 text-center max-w-3xl mx-auto">
-          Omphoenix Limited offers specialized oil and gas, engineering, and development
-          solutions designed to meet industry standards and exceed client expectations.
-        </p>
+    <section className="py-20 bg-white text-blue-500">
+  <div className="container mx-auto px-6 lg:px-12">
+    {/* Section Header */}
+    <div className="bg-lime-100 px-2 py-10 mb-12 rounded-xl shadow-sm">
+      <h2 className="text-3xl lg:text-4xl font-bold text-center mb-4">
+        Our Services
+      </h2>
+      <p className="text-gray-600 text-center max-w-3xl mx-auto">
+        Omphoenix Limited offers specialized oil and gas, engineering, and development
+        solutions designed to meet industry standards and exceed client expectations.
+      </p>
+    </div>
 
-        <div className="space-y-16">
-          {groupedServices.map((group, groupIndex) => (
-            <div key={groupIndex} className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-              {/* Image side */}
-              <div className="w-full">
-                <img
-                  src={group.image}
-                  alt={group.category}
-                  className="w-full h-64 object-cover rounded-xl shadow-md hover:scale-105 transition-transform duration-300"
-                />
-              </div>
+    {/* Services Grid */}
+    <div className="space-y-20">
+      {groupedServices.map((group, groupIndex) => (
+        <div
+          key={groupIndex}
+          className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center"
+        >
+          {/* Image side */}
+          <div className="w-full">
+            <img
+              src={group.image}
+              alt={group.category}
+              className="w-full h-72 object-cover rounded-xl shadow-md hover:scale-105 transition-transform duration-300"
+            />
+          </div>
 
-              {/* Text side */}
-              <div>
-                <h3 className="text-2xl font-semibold mb-6 border-b-2 border-blue-100 pb-2">
-                  {group.category}
-                </h3>
-                <div className="grid grid-cols-1 gap-4">
-                  {group.items.map((service, index) => (
-                    <div
-                      key={index}
-                      className="flex items-start gap-3 bg-blue-50 p-4 rounded-lg transform transition-all duration-300 hover:scale-105 hover:bg-blue-100"
-                    >
-                      <FaCheckCircle className="text-blue-500 mt-1 flex-shrink-0" />
-                      <span className="text-left text-gray-700">{service}</span>
-                    </div>
-                  ))}
+          {/* Text side */}
+          <div>
+            <h3 className="text-2xl font-semibold mb-6 border-b-2 border-blue-100 pb-3">
+              {group.category}
+            </h3>
+            <div className="grid grid-cols-1 gap-5">
+              {group.items.map((service, index) => (
+                <div
+                  key={index}
+                  className="flex items-start gap-3 bg-blue-50 p-5 rounded-lg transform transition-all duration-300 hover:scale-105 hover:bg-blue-100"
+                >
+                  <FaCheckCircle className="text-blue-500 mt-1 flex-shrink-0" />
+                  <span className="text-left text-gray-700">{service}</span>
                 </div>
-              </div>
+              ))}
             </div>
-          ))}
+          </div>
         </div>
-      </div>
-    </section>
+      ))}
+    </div>
+  </div>
+</section>
+
   );
 };
 
