@@ -51,7 +51,7 @@ const Footer = () => {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://www.facebook.com/share/14zFWkJDCp/"
+                href=""
               >
                 <FaFacebook size={20} />
               </a>
@@ -59,7 +59,7 @@ const Footer = () => {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://www.instagram.com/marere_mavo/"
+                href=""
               >
                 <FaInstagram size={20} />
               </a>
@@ -67,7 +67,7 @@ const Footer = () => {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://www.linkedin.com/in/akporowho-mariere-922862209/"
+                href=""
               >
                 <FaLinkedinIn size={20} />
               </a>
