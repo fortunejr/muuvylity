@@ -37,6 +37,23 @@ Her career includes notable experience at Financial Derivatives Company, where s
 
 A graduate of the Federal University of Technology Akure (B.Eng, Electrical/Electronics) and holder of an MSc in AI & Data Science (Distinction) University of Hull, UK. Kelly bridges traditional engineering with Industry 4.0 technologies. His work has been recognized by Innovate UK, and the Nigerian Society of Engineers.`,
   },
+  {
+    role: "Chairman",
+    name: "Ahmed C.Egbenumolise (BPA,CP,MASSA)",
+    bio: `Mr.Egbenumolise has his Bachelors degree in Public Administration  from Ambroise Alli University,  Ekpoma, Edo State and Master's Degree in Strategy and Security Administration (MASSA) from Nigeria Defense Academy, NDA, Kaduna. Ahmed is a security consultant,  sport developer and a passionate entrepreneur with flourishing interests in construction. Private security services,  communication and entertainment 
+
+He sits on the Board of several enterprises.  He is a sport lover, avid reader and prolific writer`,
+  },
+  {
+    role: "Management Consultant",
+    name: "Engr.Kelly Ochuko Egode",
+    bio: ``,
+  },
+  {
+    role: "Chairman",
+    name: "Ahmed C.Egbenumolise (BPA,CP,MASSA)",
+    bio: ``,
+  },
 ];
 
 const MeetTheTeam = () => {
