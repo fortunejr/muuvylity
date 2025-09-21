@@ -69,7 +69,7 @@ const Contact = () => {
                     330102, Delta
                   </span>
                 </p>
-              <a href="mailto:info@omphoenix.com.ng">
+              <a href="mailto:info@omphoenixlimited.com.ng">
                 <p className="flex items-center gap-3">
                   <MdEmail className="text-customBlue text-xl" />
                   <span>

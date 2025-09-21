@@ -29,7 +29,7 @@ const Footer = () => {
             <p className="text-white text-sm">
               📍 220 P. T. I. Rd, Effurun, Uvwie 330102, Delta
             </p>
-            <a href="mailto:info@omphoenix.com.ng"><p className="text-white text-sm mt-2">📧 info@omphoenixlimited.com.ng</p></a>
+            <a href="mailto:info@omphoenixlimited.com.ng"><p className="text-white text-sm mt-2">📧 info@omphoenixlimited.com.ng</p></a>
           </div>
 
           {/* Map */}
