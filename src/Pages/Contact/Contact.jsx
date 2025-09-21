@@ -73,7 +73,7 @@ const Contact = () => {
                 <p className="flex items-center gap-3">
                   <MdEmail className="text-customBlue text-xl" />
                   <span>
-                    <strong>Email:</strong> info@omphoenix.com.ng
+                    <strong>Email:</strong> info@omphoenixlimited.com.ng
                   </span>
                 </p>
               </a>
