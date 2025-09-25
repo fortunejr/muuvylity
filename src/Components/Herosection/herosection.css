@@ -116,4 +116,37 @@
       opacity: 1;
     }
   }
-  
+
+/* Kenburns effect only for the background element */
+.kenburns-top {
+  animation: kenburns-top 10s ease-out infinite alternate;
+  will-change: transform;
+  backface-visibility: hidden;
+  transform-origin: center top;
+}
+
+/* Desktop/Default */
+@keyframes kenburns-top {
+  0% {
+    transform: scale(1) translateY(0);
+  }
+  100% {
+    transform: scale(1.12) translateY(-10px);
+  }
+}
+
+/* Softer effect on small screens so scaled image doesn't reveal edges */
+@media (max-width: 768px) {
+  .kenburns-top {
+    animation: kenburns-top-sm 12s ease-out infinite alternate;
+  }
+
+  @keyframes kenburns-top-sm {
+    0% {
+      transform: scale(1) translateY(0);
+    }
+    100% {
+      transform: scale(1.06) translateY(-6px);
+    }
+  }
+}

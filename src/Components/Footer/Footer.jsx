@@ -16,8 +16,11 @@ const Footer = () => {
               <img className="h-14 mb-4" src={logo} alt="LumiGrid logo" />
             </Link>
             <p className="text-white text-sm leading-relaxed">
-              At Omphoenix, we specialize in providing comprehensive services
-              and solutions to the oil and gas industry and other allieds.
+              We recognize the need for a company that
+              seamlessly integrates transportation, warehousing, eet
+              management, and specialized logistics services,
+              providing clients with a one-stop solution for all their
+              logistics needs.
             </p>
           </div>
 
@@ -27,13 +30,15 @@ const Footer = () => {
               Contact Information
             </h2>
             <p className="text-white text-sm">
-              📍 220 P. T. I. Rd, Effurun, Uvwie 330102, Delta
+              📍 B46 Marcus Gundiri Street, Sunshine Estate,
+              Gwarimpa,FCT-Abuja, Nigeria
             </p>
-            <a href="mailto:info@omphoenixlimited.com.ng"><p className="text-white text-sm mt-2">📧 info@omphoenixlimited.com.ng</p></a>
+            <a href="mailto:info@muuvilitylogisticsltd.com"><p className="text-white text-sm mt-2">📧 info@muuvilitylogisticsltd.com</p></a>
+            <a href="mailto:muuvylitylogisticsltd825@gmail.com"><p className="text-white text-sm mt-2">📧 imuuvylitylogisticsltd825@gmail.com</p></a>
           </div>
 
           {/* Map */}
-          <div className="lg:w-1/4 w-full h-64 lg:h-48 rounded-lg overflow-hidden shadow-md">
+          {/* <div className="lg:w-1/4 w-full h-64 lg:h-48 rounded-lg overflow-hidden shadow-md">
             <iframe
               src="https://www.google.com/maps/embed?pb=!4v1755958888439!6m8!1m7!1sGxBfeXwJPVOXsq1t1D71Ng!2m2!1d5.567936549623464!2d5.79700192865511!3f208.2!4f0!5f0.7820865974627469"
               width="100%"
@@ -43,7 +48,7 @@ const Footer = () => {
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
-          </div>
+          </div> */}
 
           {/* Social Icons */}
           <div className="lg:w-1/4 pt-7 lg:pt-0">
@@ -64,7 +69,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <p className="text-center text-sm mt-10 text-white">
-          &copy; {year} Omphoenix Limited
+          &copy; {year} MUUVYLITY LOGISTICS LTD
         </p>
       </div>
     </footer>

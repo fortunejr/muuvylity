@@ -1,37 +1,47 @@
 import React from 'react'
-import { img10, img7 } from '../../imports'
+import { img10 } from '../../imports'
 import { FaArrowRight } from "react-icons/fa";
 import { Link } from 'react-router';
 
 const About = () => {
   return (
     <div className='container mx-auto px-7 lg:px-20 py-14 lg:py-20'>
-    <div className='lg:flex'>
+      <div className='lg:flex items-center'>
+        
+        {/* Left Image */}
         <div className='lg:w-1/2'>
-            <img 
-                className='w-full object-cover pr-2 lg:h-full slide-in-blurred-bottom rounded-3xl' 
-                src={img10} 
-                alt="solar panel" 
-            />
+          <img 
+            className='w-full object-cover pr-2 lg:h-full slide-in-blurred-bottom rounded-3xl' 
+            src={img10} 
+            alt="about image" 
+          />
         </div>
 
-        <div className='lg:w-1/2 lg:pl-10'>
-            <h2 className='font-bold text-3xl mt-7 lg:text-6xl'>Who are we?</h2>
-            <p className='lg:text-xl mt-4'>
-                Omphoenix Limited is a dynamic, forward-thinking company specializing in providing comprehensive solutions to the oil and gas industry and allied sectors. We are committed to delivering excellence, innovation, and measurable value to our clients through a blend of technical expertise, strategic insight, and an unwavering focus on safety and quality.
-            </p>
+        {/* Right Text Content */}
+        <div className='lg:w-1/2 lg:pl-10 flex flex-col justify-center h-full'>
+          <h2 className='font-bold text-2xl mt-7 lg:mt-0 lg:text-4xl'>About Us</h2>
+          <p className='lg:text-xl mt-4'>
+            Muuvylity Logistics Ltd expertise in land, air, and sea transport, e-ride services,
+            warehousing, and specialized logistics, with a strategic
+            intent on integrated global shipping and supply chain
+            management services, including its mission, services
+            (such as freight forwarding, warehousing, etc),
+            commitment to technology, customer service principles,
+            and geographic reach. 
+          </p>
+
+          {/* Button */}
+          <div className='pt-7'>
+            <Link to="/about">
+              <button className='flex items-center gap-3 bg-customRed px-5 py-3 rounded-xl font-bold text-white hover:scale-105 transition'>
+                Read More <FaArrowRight />
+              </button>
+            </Link>
+          </div>
         </div>
-    </div>
 
-    <div className='pt-7'>
-      <Link to= {"/about"}>
-        <button className='flex items-center justify-evenly gap-4 bg-customBlue px-5 py-3 rounded-xl font-bold text-white'>Read More
-        <FaArrowRight />
-           </button>
-
-           </Link>
+      </div>
     </div>
-</div>
   )
 }
 

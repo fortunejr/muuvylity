@@ -12,11 +12,9 @@ const Homepage = () => {
   return (
     <div>
         <Herosection />
-        <Stats/>
         <About />
         <Services />
         <Advantages />
-        <Appointment />
     </div>
   )
 }

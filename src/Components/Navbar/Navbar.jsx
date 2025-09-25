@@ -19,10 +19,6 @@ const Navbar = () => {
         link: "/advantages"
       },
       {
-        name: "Meet the Team",
-        link: "/abouttheteam"
-      },
-      {
         name: "Contact",
         link: "/contact"
       },
