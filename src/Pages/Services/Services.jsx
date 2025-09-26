@@ -50,10 +50,10 @@ const services = [
 
 const Services = () => {
   return (
-    <section className="py-20 bg-white text-blue-500">
+    <section className="py-20 bg-white text-customRed">
       <div className="container mx-auto px-6 lg:px-12">
         {/* Section Header */}
-        <div className="bg-lime-100 px-2 py-10 mb-12 rounded-xl shadow-sm">
+        <div className="bg-red-100 px-2 py-10 mb-12 rounded-xl shadow-sm">
           <h2 className="text-3xl lg:text-4xl font-bold text-center mb-4">
             Our Services
           </h2>
@@ -77,11 +77,11 @@ const Services = () => {
 
               {/* Text side */}
               <div>
-                <h3 className="text-2xl font-semibold mb-6 border-b-2 border-blue-100 pb-3">
+                <h3 className="text-2xl font-semibold mb-6 border-b-2 border-customRed pb-3">
                   {service.heading}
                 </h3>
                 <div className="flex items-start gap-3">
-                  <FaCheckCircle className="text-blue-500 mt-1 flex-shrink-0" />
+                  <FaCheckCircle className="text-customRed mt-1 flex-shrink-0" />
                   <p className="text-left text-gray-700">{service.body}</p>
                 </div>
               </div>

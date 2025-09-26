@@ -18,7 +18,7 @@ const Footer = () => {
             </Link>
             <p className="text-white text-sm leading-relaxed">
               We recognize the need for a company that seamlessly integrates
-              transportation, warehousing, eet management, and specialized
+              transportation, warehousing, fleet management, and specialized
               logistics services, providing clients with a one-stop solution for
               all their logistics needs.
             </p>

@@ -138,7 +138,7 @@ const Contact = () => {
                   className="w-full px-4 py-2 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-400"
                 ></textarea>
               </div>
-              <button className="bg-customBlue text-white font-bold px-6 py-3 rounded-xl hover:bg-blue-800 transition-all">
+              <button className="bg-customRed text-white font-bold px-6 py-3 rounded-xl hover:bg-blue-800 transition-all">
                 Send Message
               </button>
             </form>
