@@ -2,6 +2,7 @@ import React from "react";
 import { logo } from "../../imports";
 import { FaFacebook, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { Link } from "react-router";
+import { MdLocationOn, MdEmail, MdPhone } from "react-icons/md";
 
 const Footer = () => {
   const date = new Date();
@@ -16,11 +17,10 @@ const Footer = () => {
               <img className="h-14 mb-4" src={logo} alt="LumiGrid logo" />
             </Link>
             <p className="text-white text-sm leading-relaxed">
-              We recognize the need for a company that
-              seamlessly integrates transportation, warehousing, eet
-              management, and specialized logistics services,
-              providing clients with a one-stop solution for all their
-              logistics needs.
+              We recognize the need for a company that seamlessly integrates
+              transportation, warehousing, eet management, and specialized
+              logistics services, providing clients with a one-stop solution for
+              all their logistics needs.
             </p>
           </div>
 
@@ -30,11 +30,33 @@ const Footer = () => {
               Contact Information
             </h2>
             <p className="text-white text-sm">
-              📍 B46 Marcus Gundiri Street, Sunshine Estate,
-              Gwarimpa,FCT-Abuja, Nigeria
+              📍 B46 Marcus Gundiri Street, Sunshine Estate, Gwarimpa,FCT-Abuja,
+              Nigeria
             </p>
-            <a href="mailto:info@muuvilitylogisticsltd.com"><p className="text-white text-sm mt-2">📧 info@muuvilitylogisticsltd.com</p></a>
-            <a href="mailto:muuvylitylogisticsltd825@gmail.com"><p className="text-white text-sm mt-2">📧 imuuvylitylogisticsltd825@gmail.com</p></a>
+            <a href="mailto:info@muuvilitylogisticsltd.com">
+              <p className="text-white text-sm mt-2">
+                📧 info@muuvilitylogisticsltd.com
+              </p>
+            </a>
+            <a href="mailto:muuvylitylogisticsltd825@gmail.com">
+              <p className="text-white text-sm mt-2">
+                📧 imuuvylitylogisticsltd825@gmail.com
+              </p>
+            </a>
+            <a href="tel:+2349091112210">
+              <p className="flex items-center gap-3 text-white mt-2">
+                <MdPhone className="text-white text-sm" />
+                <span> +234-909-111-2210
+                </span>
+              </p>
+            </a>
+            <a href="tel:+2348163647971">
+              <p className="flex items-center gap-3 text-white">
+                <MdPhone className="text-white text-sm" />
+                <span> +234-816-364-7971
+                </span>
+              </p>
+            </a>
           </div>
 
           {/* Map */}
