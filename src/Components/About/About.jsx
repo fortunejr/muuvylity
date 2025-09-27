@@ -19,7 +19,7 @@ const About = () => {
 
         {/* Right Text Content */}
         <div className='lg:w-1/2 lg:pl-10 flex flex-col justify-center h-full'>
-          <h2 className='font-bold text-2xl mt-7 lg:mt-0 lg:text-4xl'>About Us</h2>
+          <h2 className='font-bold text-3xl mt-7 lg:mt-0 lg:text-5xl'>About Us</h2>
           <p className='lg:text-xl mt-4'>
             Muuvylity Logistics Ltd expertise in land, air, and sea transport, e-ride services,
             warehousing, and specialized logistics, with a strategic

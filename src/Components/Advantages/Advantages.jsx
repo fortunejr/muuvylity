@@ -29,7 +29,7 @@ const Advantages = () => {
       {/* CTA */}
       <div className="flex justify-center mt-10">
         <Link
-          to="/services"
+          to="/advantages"
           className="inline-block px-6 py-3 rounded-full bg-customRed text-white font-semibold hover:scale-105 transition duration-300 shadow-md text-center"
         >
           See more

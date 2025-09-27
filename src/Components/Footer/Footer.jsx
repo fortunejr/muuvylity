@@ -93,6 +93,9 @@ const Footer = () => {
         <p className="text-center text-sm mt-10 text-white">
           &copy; {year} MUUVYLITY LOGISTICS LTD
         </p>
+        <p className="text-center text-[12px] mt-10 text-blue-400">
+          Built by <a href='https://xmotivotechnologies.com/' target='_blank'>xMotivo Technologies Ltd</a>
+        </p>
       </div>
     </footer>
   );
