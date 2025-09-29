@@ -19,7 +19,7 @@ const About = () => {
           </div>
 
           {/* Right Text Content */}
-          <div className="lg:w-1/2 lg:pl-10 flex flex-col justify-center h-full">
+          <div className="lg:w-1/2 lg:pl-10 flex flex-col justify-center h-full text-center lg:text-left">
             <h2 className="font-bold text-3xl mt-7 lg:mt-0 lg:text-5xl">
               About Us
             </h2>
@@ -33,9 +33,9 @@ const About = () => {
             </p>
 
             {/* Button */}
-            <div className="pt-7">
+            <div className="pt-7 flex justify-center lg:justify-start">
               <Link to="/about">
-                <button className="flex items-center gap-3 bg-customRed px-5 py-3 rounded-xl font-bold text-white hover:scale-105 transition">
+                <button className="flex items-center gap-3 bg-customRed px-5 py-3 rounded-full font-bold text-white hover:scale-105 transition">
                   Read More <FaArrowRight />
                 </button>
               </Link>
