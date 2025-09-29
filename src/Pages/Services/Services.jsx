@@ -50,11 +50,11 @@ const services = [
 
 const Services = () => {
   return (
-    <section className="py-20 bg-white text-customRed">
+    <section className="py-5 bg-white text-customRed">
       <div className="container mx-auto px-6 lg:px-12">
         {/* Section Header */}
-        <div className="bg-red-100 px-2 py-10 mb-12 rounded-xl shadow-sm">
-          <h2 className="text-3xl lg:text-4xl font-bold text-center mb-4">
+        <div className="bg-red-100 px-2 py-5 rounded-xl shadow-sm mb-10">
+          <h2 className="text-3xl lg:text-4xl font-bold text-center">
             Our Services
           </h2>
         </div>
@@ -71,15 +71,23 @@ const Services = () => {
                 <img
                   src={service.img}
                   alt={service.heading}
-                  className="w-full object-contain rounded-xl shadow-md hover:scale-105 transition-transform duration-300"
+                  className="w-full object-contain rounded-xl shadow-md "
                 />
               </div>
 
               {/* Text side */}
               <div>
-                <h3 className="text-2xl font-semibold mb-6 border-b-2 border-customRed pb-3">
-                  {service.heading}
+                <h3 className="text-xl font-semibold mb-3">
+                  {service.heading.split("&").map((part, i, arr) => (
+                    <React.Fragment key={i}>
+                      <span className="text-black">{part.trim()}</span>
+                      {i < arr.length - 1 && (
+                        <span className="text-customRed"> & </span>
+                      )}
+                    </React.Fragment>
+                  ))}
                 </h3>
+                <hr className="mb-2"/>
                 <div className="flex items-start gap-3">
                   <FaCheckCircle className="text-customRed mt-1 flex-shrink-0" />
                   <p className="text-left text-gray-700">{service.body}</p>

@@ -46,7 +46,7 @@ const Herosection = () => {
           </h1>
           <p className="text-white text-base lg:text-lg opacity-90">
             The aim is to provide
-            comprehensive, reliable, and efcient logistics solutions,
+            comprehensive, reliable, and effcient logistics solutions,
             optimizing supply chains and building strong client
             partnerships.
           </p>

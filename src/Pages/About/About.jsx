@@ -51,11 +51,11 @@ const About = () => {
         </div>
 
         {/* Mission & Vision */}
-        <div className="flex flex-col lg:flex-row gap-10 mb-16">
+        <div className="flex flex-col lg:flex-row gap-10 mb-16 bg-gray-100 p-7 rounded-xl">
           <div className="w-full lg:w-1/2">
             <div className="flex items-center gap-3 mb-3">
               <Target className="text-customRed w-6 h-6" />
-              <h2 className="text-xl font-bold text-black">MISSION STATEMENT</h2>
+              <h2 className="text-xl font-bold text-black tracking-wide">MISSION STATEMENT</h2>
             </div>
             <p className="text-black text-sm lg:text-base leading-relaxed">
               The company’s overarching strategic goal is to provide efficient,
@@ -68,7 +68,7 @@ const About = () => {
           <div className="w-full lg:w-1/2">
             <div className="flex items-center gap-3 mb-3">
               <Eye className="text-customRed w-6 h-6" />
-              <h2 className="text-xl font-bold text-black">VISION STATEMENT</h2>
+              <h2 className="text-xl font-bold text-black tracking-wide">VISION STATEMENT</h2>
             </div>
             <p className="text-black text-sm lg:text-base leading-relaxed">
               To be the leading logistics and supply chain company in Nigeria,

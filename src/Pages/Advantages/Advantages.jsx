@@ -74,9 +74,9 @@ const Advantages = () => {
       {/* Legacy & Leadership side by side on desktop */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 bg-gray-100 p-6 rounded-2xl mb-12">
         <div>
-          <h3 className="text-2xl font-semibold text-customRed mb-3">
+          <h2 className="text-2xl font-semibold text-customRed mb-3 tracking-wide">
             OUR LEGACY POSITIONING
-          </h3>
+          </h2>
           <p className="text-gray-700 leading-relaxed">
             Muuvylity Logistics Ltd is committed to leaving a lasting legacy of
             innovation, reliability, and excellence in the logistics and supply
@@ -90,9 +90,9 @@ const Advantages = () => {
           </p>
         </div>
         <div>
-          <h3 className="text-2xl font-semibold text-customRed mb-3">
+          <h2 className="text-2xl font-semibold text-customRed mb-3 tracking-wide">
             LEADERSHIP
-          </h3>
+          </h2>
           <p className="text-gray-700 leading-relaxed">
             The leadership team at Muuvylity Logistics Ltd is composed of
             seasoned professionals with extensive experience in logistics,
@@ -111,9 +111,9 @@ const Advantages = () => {
 
       {/* Strategies */}
       <div className="mb-12">
-        <h3 className="text-2xl font-semibold text-customRed mb-6">
+        <h2 className="text-2xl font-semibold text-customRed mb-6 tracking-wide">
           STRATEGIES FOR GROWTH AND SUCCESS
-        </h3>
+        </h2>
         <p className="text-gray-700 mb-6">
           Muuvylity Logistics Ltd employs a dynamic and forward-looking strategy
           to drive sustainable growth, expand service coverage, and maintain
@@ -149,9 +149,9 @@ const Advantages = () => {
 
       {/* Craftsmanship */}
       <div>
-        <h3 className="text-2xl font-semibold text-customRed mb-4">
+        <h2 className="text-2xl font-semibold text-customRed mb-4 tracking-wide">
           CRAFTSMANSHIP AND QUALITY
-        </h3>
+        </h2>
         <p className="text-gray-700 leading-relaxed">
           MUUVYLITY LOGISTICS LTD is dedicated to achieving excellence in every
           facet of logistics and supply chain management. From transportation

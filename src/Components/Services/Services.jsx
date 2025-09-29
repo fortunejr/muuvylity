@@ -27,31 +27,11 @@ const services = [
     body: "Muuvylity Logistics Ltd provides comprehensive warehousing and inventory management solutions designed to optimize the storage, handling, and distribution of goods for businesses, manufacturers, and retailers.",
     img: warehouse,
   },
-  // {
-  //   heading: "Supply Chain Optimization",
-  //   body: "Muuvylity Logistics Ltd specializes in streamlining end-to-end supply chain operations to ensure efficiency, cost-effectiveness, and timely delivery of goods from raw materials to end customers.",
-  //   img: supply,
-  // },
-  // {
-  //   heading: "Third-Party & Specialized Logistics Services",
-  //   body: "Muuvylity Logistics Ltd provides comprehensive third-party (3PL) and specialized logistics services, including fourth-party (4PL) logistics, inbound, outbound, and reverse logistics solutions, tailored to meet the unique needs of businesses and organizations.",
-  //   img: third_party,
-  // },
-  // {
-  //   heading: "Imports, Exports & Manufacturing Representation",
-  //   body: "Muuvylity Logistics Ltd engages in the import, export, and distribution of manufactured goods, connecting producers to local and international markets.",
-  //   img: imports,
-  // },
-  // {
-  //   heading: "Marine Spare Parts & Mining Logistics Solutions",
-  //   body: "Muuvylity Logistics Ltd provides a comprehensive range of logistics support services for the maritime sector through the provisions of marine spare parts and equipment for vessels, ensuring that maritime operations are efficient, safe, and reliable.",
-  //   img: marine,
-  // },
 ];
 
 const Services = () => {
   return (
-    <section className="px-7 py-16 bg-white text-customRed">
+    <section className="px-7 py-16 bg-gray-50 text-customRed">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-3xl lg:text-4xl font-bold mb-12 text-black">
           Our Services
@@ -77,8 +57,15 @@ const Services = () => {
 
                 {/* Content */}
                 <div className="p-6 flex flex-col flex-grow">
-                  <h3 className="text-xl font-semibold text-customBlue mb-3">
-                    {service.heading}
+                  <h3 className="text-xl font-semibold mb-3">
+                    {service.heading.split("&").map((part, i, arr) => (
+                      <React.Fragment key={i}>
+                        <span className="text-black">{part.trim()}</span>
+                        {i < arr.length - 1 && (
+                          <span className="text-customRed"> & </span>
+                        )}
+                      </React.Fragment>
+                    ))}
                   </h3>
                   <p className="text-gray-700 text-sm flex-grow">
                     {service.body}

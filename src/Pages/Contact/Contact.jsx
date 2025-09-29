@@ -63,7 +63,7 @@ const Contact = () => {
               </div> */}
 
                 <p className="flex items-center gap-3">
-                  <MdLocationOn className="text-customBlue text-xl" />
+                  <MdLocationOn className="text-customBlue lg:text-xl text-4xl" />
                   <span>
                     <strong>Address:</strong> B46 Marcus Gundiri Street, Sunshine Estate, Gwarimpa,FCT-Abuja, Nigeria
                   </span>
