@@ -12,6 +12,7 @@ const Homepage = () => {
   return (
     <div>
         <Herosection />
+        <Stats/>
         <About />
         <Services />
         <Advantages />
