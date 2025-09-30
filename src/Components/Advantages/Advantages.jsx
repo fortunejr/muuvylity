@@ -13,8 +13,8 @@ const advantagesList = [
 const Advantages = () => {
   return (
     <div className="container mx-auto px-7 py-16">
-      <h2 className="text-3xl lg:text-4xl font-bold mb-12 text-center text-customRed">
-        Why Choose Us?
+      <h2 className="text-3xl lg:text-4xl font-bold mb-12 text-center text-black">
+        Why <span className="text-customRed">Choose</span> Us?
       </h2>
 
       <ul className="space-y-6">

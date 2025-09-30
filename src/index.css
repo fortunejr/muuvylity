@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Belgrano&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -16,6 +17,10 @@ h1 {
 h2 {
     font-family: "Bebas Neue", sans-serif;
     font-size:30px;
+}
+
+.stats-font {
+  font-family: "Instrument Sans", sans-serif;
 }
 
 .testimonials {

@@ -12,7 +12,7 @@ const Stats = () => {
   return (
     <section className="py-6 flex justify-center px-4">
       <div className="bg-customRed rounded-2xl px-10 py-10 max-w-5xl w-full text-center">
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-12">
+        <div className="grid grid-cols-1 sm:grid-cols-3 lg:gap-12 gap-5">
           {stats.map((stat, index) => {
             const { ref, inView } = useInView({
               triggerOnce: true,
@@ -23,12 +23,12 @@ const Stats = () => {
               <div
                 key={index}
                 ref={ref}
-                className="transform transition duration-500 hover:scale-105"
+                className="transform transition duration-500 hover:scale-105 bg-red-950/25 rounded-xl px-5 py-4 "
               >
-                <h2 className="text-5xl font-extrabold text-yellow-200">
+                <h2 className="stats-font lg:text-5xl text-4xl font-extrabold text-yellow-400">
                   {inView ? <CountUp end={stat.number} duration={2.5} /> : 0}+
                 </h2>
-                <p className="mt-3 text-lg text-yellow-200 tracking-wide font-medium">
+                <p className="mt-3 text-lg text-white tracking-wide font-medium">
                   {stat.label}
                 </p>
               </div>

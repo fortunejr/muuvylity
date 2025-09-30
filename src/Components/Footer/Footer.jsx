@@ -14,7 +14,7 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="lg:w-1/4">
             <Link to={"/"}>
-              <img className="h-14 mb-4" src={logo} alt="LumiGrid logo" />
+              <img className="h-14 mb-4 bg-white p-2 rounded-lg" src={logo} alt="LumiGrid logo" />
             </Link>
             <p className="text-white text-sm leading-relaxed">
               We recognize the need for a company that seamlessly integrates
@@ -35,7 +35,7 @@ const Footer = () => {
             </p>
             <a href="mailto:info@muuvilitylogisticsltd.com">
               <p className="text-white text-sm mt-2">
-                📧 info@muuvilitylogisticsltd.com
+                📧 info@muuvilitylogistics.com
               </p>
             </a>
             <a href="mailto:muuvylitylogisticsltd825@gmail.com">
@@ -93,7 +93,7 @@ const Footer = () => {
         <p className="text-center text-sm mt-10 text-white">
           &copy; {year} MUUVYLITY LOGISTICS LTD
         </p>
-        <p className="text-center text-[12px] mt-10 text-blue-400">
+        <p className="text-center text-[9px] mt-10 text-blue-400">
           Built by <a href='https://xmotivotechnologies.com/' target='_blank'>xMotivo Technologies Ltd</a>
         </p>
       </div>

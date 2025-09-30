@@ -34,7 +34,7 @@ const Services = () => {
     <section className="px-7 py-16 bg-gray-50 text-customRed">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-3xl lg:text-4xl font-bold mb-12 text-black">
-          Our Services
+          Our <span className="text-customRed">Services</span>
         </h2>
 
         {/* Card Grid */}

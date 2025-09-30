@@ -29,7 +29,7 @@ const About = () => {
         <div className="flex flex-col lg:flex-row items-center gap-10 mb-12">
           {/* About Text */}
           <div className="w-full lg:w-1/2">
-            <h2 className="text-4xl font-bold mb-5 text-black">About Us</h2>
+            <h2 className="text-4xl font-bold mb-5 text-black text-center">About <span className="text-customRed">Muuvylity Logistics</span></h2>
             <p className="text-black text-sm lg:text-base leading-relaxed">
               Muuvylity Logistics Ltd was established with a vision to modernize
               logistics and supply chain management in Nigeria. We recognize the
@@ -80,7 +80,7 @@ const About = () => {
 
         {/* Aims & Objectives */}
         <div className="mb-16">
-          <h2 className="text-2xl font-bold mb-6 text-center text-black">
+          <h2 className="text-3xl font-bold mb-6 text-center text-black">
             Aims & Objectives
           </h2>
           <ul className="list-disc list-inside space-y-3 text-black text-sm lg:text-base">
