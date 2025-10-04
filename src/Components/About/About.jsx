@@ -17,8 +17,9 @@ import {
 
 const About = () => {
   return (
-    <div className="container mx-auto px-7 lg:px-20 py-14 lg:py-20 bg-customRed/10">
-      <FadeIn duration={100}>
+    <div className="bg-customRed/10">
+    <div className="container mx-auto px-7 lg:px-20 py-14 lg:py-20">
+      <FadeIn className="" duration={100}>
         <div className="lg:flex items-center">
           {/* Left Image */}
           <div className="lg:w-1/2">
@@ -100,6 +101,7 @@ const About = () => {
           </div>
         </div>
       </FadeIn>
+    </div>
     </div>
   );
 };
